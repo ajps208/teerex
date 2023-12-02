@@ -34,7 +34,7 @@ function Banner() {
   return (
     <Carousel controls={false} indicators={false} className="bg-dark" style={{ position: "relative", boxShadow: '0 4px 8px rgba(255, 255, 0, 0.5)',backgroundColor: "#130f40", backgroundImage: 'linear-gradient(315deg, #130f40 0%, #000000 74%)' }} >
       {clothingList.map(product => (
-        <Carousel.Item key={product.id} style={{ height: "70vh" }}>
+        <Carousel.Item key={product.id} style={{ height: "75vh" }}>
           <img
             className="d-block w-25"
             src={product.image}
